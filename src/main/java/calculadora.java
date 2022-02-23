@@ -17,17 +17,30 @@ public class calculadora {
         return a-b;
     }
     
-    
-        public static void main(String args[])
+      
+        public static int Multiplicacion(int a, int b) {
+        return a*b;
+    }
+        public static int Division(int a, int b) {
+        return a/b;
+    }
+        
+            public static void main(String args[])
     {
+
+        
+        
         System.out.println("Suma de 1 + 1 = "+ Suma(1,1));
         System.out.println("Resta de 2 - 1 = "+ Resta(2,1));
+        
+        
+        System.out.println("Multiplicación de 3 * 3 = "+ Multiplicacion(3,3));
+        System.out.println("Division de 5 / 5 = "+ Division(5,5));
 
+   
     }
-    
-    
-    
-    
-    
+        
+        
+        
     
 }
