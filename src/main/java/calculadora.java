@@ -9,4 +9,15 @@
  */
 public class calculadora {
     
+        public static int Suma_3_parametros(int a, int b, int c) {
+        return a+b+c;
+    }
+        
+        
+          public static void main(String args[])
+    {
+        System.out.println("Suma de 1 + 3 = "+ Suma_3_parametros(1,3,5));
+
+    }
+    
 }
