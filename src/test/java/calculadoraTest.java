@@ -72,7 +72,7 @@ public class calculadoraTest {
         System.out.println("Multiplicacion");
         int a = 3;
         int b = 3;
-        int expResult = 7;
+        int expResult = 9;
         int result = calculadora.Multiplicacion(a, b);
         assertEquals(expResult, result);
 
